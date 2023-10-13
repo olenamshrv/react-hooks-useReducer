@@ -36,11 +36,6 @@ function listReducer(state, action) {
       };
 
     case LIST_ACTION_TYPE.REVERSE:
-      console.log({
-        ...state,
-        items: state.items.reverse(),
-      });
-
       return {
         ...state,
         items: state.items.reverse(),
